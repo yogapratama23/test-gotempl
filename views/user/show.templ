@@ -1,0 +1,10 @@
+package user
+
+import "github.com/yogapratama23/test-gotempl/views/layout"
+import "github.com/yogapratama23/test-gotempl/models"
+
+templ Show(user models.User) {
+    @layout.Base() {
+        <h1>HELLO { user.Email } FROM SHOW USER TEMPL</h1>
+    }
+}
