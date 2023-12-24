@@ -5,6 +5,6 @@ import "github.com/yogapratama23/test-gotempl/models"
 
 templ Show(user models.User) {
     @layout.Base() {
-        <h1>HELLO { user.Email } FROM SHOW USER TEMPL</h1>
+        <h1 class="text-yellow-500">HELLO { user.Email } FROM SHOW USER TEMPL</h1>
     }
 }
